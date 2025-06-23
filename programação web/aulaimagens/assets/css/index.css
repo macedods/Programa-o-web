@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Tokyo ;
+    src: url(../fontes/TokyoMidnight.otf);
+}
+body{
+    background-image: url(../imagem/images2.jfif);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family:Tokyo ; 
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family:Tokyo ;
+}
+#Comida{
+    width: 100vw;
+    height: 38vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+#Ponto{
+    width: 100vw;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.pontos{
+    width: 10vw;
+   height: 10vh;
+   display: block;
+   margin: 10px auto;
+   border-radius: solid 2px red;
+}
+

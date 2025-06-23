@@ -1,0 +1,5 @@
+let nome = prompt('Digite o seu nome')
+let cor = prompt('Digite a sua cor favorita')
+console.log('Olá: ',nome )
+console.log('Sua cor favorita é: ', cor)
+alert('Olá ' + nome + '! ' + ', ' + 'Sua cor favorita é ' + cor)

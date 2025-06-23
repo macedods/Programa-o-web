@@ -1,0 +1,38 @@
+/* SELETORES COMBINADOS*/
+/* seletor descendente (tag é descendente de outra)*/
+div p{
+    background-color: #2a2a4a;
+    padding: 10px;
+    border-left: 3px solid #00bcd4;
+    margin-bottom: 5px;
+}
+/*filho direto (tag que é filha de outra )*/
+ul > li{
+    list-style-type: none;
+    background-color: #3a3a6a;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 4px;
+}
+li > a{
+    color: white;
+}
+
+/*PSEUDO-CLASSE*/
+
+a:hover{
+    color: #ffeb3b;
+    text-decoration: underline;
+}
+/*Focus - aplica quando input esta ativo (Clicado)*/
+input:focus{
+    outline: none;
+    border: 2px solid purple;
+}
+/*PSEUDO-ELEMENTO*/
+/*aftter*/
+.novidades::after{
+    content: "🍔";
+    font-size: 15px;
+    color: yellow;
+}
